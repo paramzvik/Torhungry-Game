@@ -1,0 +1,5 @@
+The basic things that are required for this implemantation of the game are:
+
+1. Python Turtle module
+2. Math module
+3. Random Module
