@@ -79,7 +79,7 @@ while True:
     #Boundary Checking
     if player.xcor() > 300 or player.xcor() < -300:
         player.right(180)
-    if player.ycor() > 300 or player.ycor() < -300:
+    if player.ycor() > 300 or player.ycor() < -300: 
         player.right(180)
     
 
@@ -90,7 +90,7 @@ while True:
         goals[count].forward(3)
         if goals[count].xcor() > 300 or goals[count].xcor() < -300:
             goals[count].right(180)
-        if goals[count].ycor() > 300or goals[count].ycor() < -300:
+        if goals[count].ycor() > 300 or goals[count].ycor() < -300:
             goals[count].right(180)
         if iscollison(player, goals[count]):
             goals[count].setposition(rd.randint(-300,300), rd.randint(-300,300))
